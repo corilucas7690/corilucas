@@ -1,0 +1,65 @@
+body {
+	background-color: grey;
+}
+
+h1 {
+	background-color: black;
+	color: white;
+	text-align:  center;
+}
+
+img {
+	width:  300px;
+	height:  300px;
+	margin:  10px;
+	transition: .5s;
+	align-items: center;
+}
+
+img:hover {
+	transform: scale(1.2);
+	}
+
+.tall {
+	width:  300px;
+	height:  400px;
+}
+
+.wide {
+	width:  400px;
+	height:  300px;
+}
+
+.body {
+	display: flex;
+	justify-content: center;
+	flex-wrap:  wrap;
+}
+
+h1 {
+	font-family: "Josefin Sans";
+	color: black;
+	border:  5px solid #106310;
+	background-color: white;
+	text-align: center;
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+}
+
+.btn {
+	font-weight: 700;
+	border-radius:  300px;
+}
+
+.btn-secondary {
+	background-color: #53A753;
+	border-color: #53A753;
+}
+
+.btn-secondary:hover {
+	background-color: #116511;
+	border-color: #116511;
+	border-width:  4px;
+}
